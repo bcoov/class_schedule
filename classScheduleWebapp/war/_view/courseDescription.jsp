@@ -28,6 +28,8 @@
 		<div id = "section">
 			<h2>${selectedCourse.name}</h2>
 			
+			<h3>${selectedCourse.semester}</h3>
+			
 			<p>${descr.descript}</p>
 			
 			<form action="${pageContext.servletContext.contextPath}/courseDescription" method="post">
